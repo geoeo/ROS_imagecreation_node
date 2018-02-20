@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="image_creation" name="realsense_receiver" type="image_creation_node" output="screen">
+        <remap from="in" to="/camera/rgb/image_raw"/>
+    </node>
+
+</launch>
